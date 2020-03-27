@@ -9,8 +9,9 @@ module.exports = {
     },
   },
   rules: {
-    "no-use-before-define": 0,
-    "no-unused-vars": 0
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-unused-vars": ["warning", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "@typescript-eslint/explicit-function-return-type": "off"
   },
   settings: {
     react: {
