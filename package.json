@@ -95,7 +95,6 @@
     "eslint-plugin-react": "^7.19.0",
     "prettier": "^2.0.2"
   },
-  "homepage": "https://rhdtl78.github.io/blog/",
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -150,5 +149,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "homepage": "https://rhdtl78.github.io/blog/"
 }
