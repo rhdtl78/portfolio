@@ -1,16 +1,10 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-
-import { Helmet } from 'react-helmet'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Jeonghun Kong의 BlahBlah</title>
-      </Helmet>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -26,7 +20,7 @@ function App() {
         </a>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
