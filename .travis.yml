@@ -14,7 +14,7 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: build
   on:
-    repo: rhdtl78/blog-front
+    repo: rhdtl78/rhdtl78.github.io
     branches:
       only:
         - master
