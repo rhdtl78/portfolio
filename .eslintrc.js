@@ -9,7 +9,7 @@ module.exports = {
     },
   },
   rules: {
-    // 추후 .prettierrc.js 파일에서 설정해줄 예정
+    "no-use-before-define": false
   },
   settings: {
     react: {
