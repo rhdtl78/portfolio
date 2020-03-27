@@ -9,7 +9,8 @@ module.exports = {
     },
   },
   rules: {
-    "no-use-before-define": false
+    "no-use-before-define": false,
+    "no-unused-vars": false
   },
   settings: {
     react: {
