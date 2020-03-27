@@ -9,8 +9,8 @@ module.exports = {
     },
   },
   rules: {
-    "no-use-before-define": false,
-    "no-unused-vars": false
+    "no-use-before-define": 0,
+    "no-unused-vars": 0
   },
   settings: {
     react: {
