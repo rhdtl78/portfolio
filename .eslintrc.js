@@ -10,7 +10,7 @@ module.exports = {
   },
   rules: {
     "no-use-before-define": "off",
-    "@typescript-eslint/no-unused-vars": ["warning", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/explicit-function-return-type": "off"
   },
   settings: {
