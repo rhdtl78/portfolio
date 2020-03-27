@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Jeonghun Kong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars1.githubusercontent.com/u/28679823?s=460&u=ba0a8f898800abf32cee2b781851f5b6b2648135&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "주로 웹 풀스택 개발을 하고있습니다. 지금은 spring boot 와 알고리즘을 공부중입니다."
   location         : "경기도 안산시 상록구 일동"
   email            : "rhdtl78@gmail.com"
