@@ -1,6 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
+  extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', "plugin:react/recommended"],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -9,9 +9,6 @@ module.exports = {
     },
   },
   rules: {
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-unused-vars": "off",
-    "@typescript-eslint/explicit-function-return-type": "off"
   },
   settings: {
     react: {
