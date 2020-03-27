@@ -17,4 +17,4 @@ deploy:
     repo: rhdtl78/blog-front
     branches:
       only:
-        - gh_pages
+        - master
