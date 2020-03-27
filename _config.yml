@@ -260,3 +260,4 @@ defaults:
       related: true
 
 remote_theme : mmistakes/minimal-mistakes
+category_list: [general, history]
