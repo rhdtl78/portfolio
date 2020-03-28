@@ -9,5 +9,8 @@
     "plugin:import/warnings",
     "plugin:@typescript-eslint/recommended"
   ],
-  "ignorePatterns": ["test/**/*", "node_modules/", "scripts/**/*", "config/**/*"]
+  "ignorePatterns": ["test/**/*", "node_modules/", "scripts/**/*", "config/**/*"],
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+  }
 }

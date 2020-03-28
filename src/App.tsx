@@ -1,18 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Helmet } from 'react-helmet';
+import { hot } from 'react-hot-loader';
 
 const App: React.FC = () => (
   <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        Learn React
-      </a>
-    </header>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{"JeongHun Kong's BlahBlah"}</title>
+    </Helmet>
   </div>
 );
 
-export default App;
+export default hot(module)(App);

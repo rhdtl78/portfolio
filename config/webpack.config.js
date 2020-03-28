@@ -284,6 +284,10 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        '@components': path.resolve(fs.realpathSync(process.cwd()), 'src/components'),
+        '@layouts': path.resolve(fs.realpathSync(process.cwd()), 'src/layouts'),
+        '@styles': path.resolve(fs.realpathSync(process.cwd()), 'src/styles'),
+        '@tests': path.resolve(fs.realpathSync(process.cwd()), 'tests'),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
