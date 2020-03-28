@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - 'stable'
+cache:
+  directories:
+    - node_modules
+script:
+  - yarn test
+  - yarn test:coverage # Coverage 테스트를 위한 코드이며 사용하지 않으셔도 gh-pages과는 무관합니다
+  - yarn build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Travis CI에서 설정가능한 환경 변수입니다.
+  local_dir: build
+  on:
+    branch: master
