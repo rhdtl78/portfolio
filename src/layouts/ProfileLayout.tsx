@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'reactstrap';
 
-interface ProfileProps {
+interface ProfileLayoutProps {
   image: string;
   name: string;
   email: string;
@@ -9,7 +9,7 @@ interface ProfileProps {
   github: string;
 }
 
-const Profile: React.FC<ProfileProps> = (props) => {
+const ProfileLayout: React.FC<ProfileLayoutProps> = (props) => {
   const profile = props;
   return (
     <Container>
@@ -18,4 +18,4 @@ const Profile: React.FC<ProfileProps> = (props) => {
   );
 };
 
-export default Profile;
+export default ProfileLayout;
