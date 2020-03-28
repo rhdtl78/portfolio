@@ -9,5 +9,5 @@
     "plugin:import/warnings",
     "plugin:@typescript-eslint/recommended"
   ],
-  "ignorePatterns": ["test/**/*", "node_modules/"]
+  "ignorePatterns": ["test/**/*", "node_modules/", "scripts/**/*", "config/**/*"]
 }
