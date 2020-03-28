@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - yarn test
-  - yarn test:coverage # Coverage 테스트를 위한 코드이며 사용하지 않으셔도 gh-pages과는 무관합니다
+#  - yarn test:coverage # Coverage 테스트를 위한 코드이며 사용하지 않으셔도 gh-pages과는 무관합니다
   - yarn build
 
 deploy:
