@@ -1,0 +1,9 @@
+{
+  "name": "rhdtl78.github.io",
+  "version": "1.0.0",
+  "description": "JeongHun Kong's BlahBlah",
+  "main": "src/index.ts",
+  "repository": "git@github.com:rhdtl78/rhdtl78.github.io.git",
+  "author": "공정훈 <rhdtl78@gmail.com>",
+  "license": "MIT"
+}
