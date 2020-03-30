@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rhdtl89.github.io/portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/rhdtl89.github.io/portfolio/static/js/main.b83cfdaf.chunk.js",
+    "main.js.map": "/rhdtl89.github.io/portfolio/static/js/main.b83cfdaf.chunk.js.map",
+    "runtime-main.js": "/rhdtl89.github.io/portfolio/static/js/runtime-main.9250f2f9.js",
+    "runtime-main.js.map": "/rhdtl89.github.io/portfolio/static/js/runtime-main.9250f2f9.js.map",
+    "static/js/2.9e384841.chunk.js": "/rhdtl89.github.io/portfolio/static/js/2.9e384841.chunk.js",
+    "static/js/2.9e384841.chunk.js.map": "/rhdtl89.github.io/portfolio/static/js/2.9e384841.chunk.js.map",
+    "index.html": "/rhdtl89.github.io/portfolio/index.html",
+    "precache-manifest.75c46e7bd6f8d0d9d06e338cb4a7eae7.js": "/rhdtl89.github.io/portfolio/precache-manifest.75c46e7bd6f8d0d9d06e338cb4a7eae7.js",
+    "service-worker.js": "/rhdtl89.github.io/portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/rhdtl89.github.io/portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9e384841.chunk.js.LICENSE.txt": "/rhdtl89.github.io/portfolio/static/js/2.9e384841.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/rhdtl89.github.io/portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9250f2f9.js",
+    "static/js/2.9e384841.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.b83cfdaf.chunk.js"
+  ]
+}
