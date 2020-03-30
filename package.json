@@ -1,21 +1,9 @@
 {
   "name": "rhdtl78.github.io",
   "version": "1.0.0",
-  "description": "JeongHun Kong's BlahBlah",
-  "main": "src/index.ts",
+  "main": "index.js",
   "repository": "git@github.com:rhdtl78/rhdtl78.github.io.git",
   "author": "공정훈 <rhdtl78@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "@types/react": "^16.9.27",
-    "@types/react-dom": "^16.9.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
-  },
-  "devDependencies": {
-    "ts-loader": "^6.2.2"
-  }
+  "homepage": "rhdtl78.github.io/portfolio"
 }
